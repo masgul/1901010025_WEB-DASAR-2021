@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS FORM</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <B><th>FORM BIODATA</th></B>
+            </tr>
+            <tr>
+                <td><label for="nim">NIM</label></td>
+                <td>:</td>
+                <td><input required type="text" name="nim" id="nim" placeholder="Masukan Nim Anda" size="15" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td><label for="nama">NAMA</label></td>
+                <td>:</td>
+                <td><input required type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" size="30" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td><label for="jk">JENIS KELAMIN</label></td>
+                <td>:</td>
+                <td><input type="radio" name="jk" id="jk" value="L">Laki - Laki
+                    <input type="radio" name="jk" id="jk" value="P">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><label for="jurusan">JURUSAN</label></td>
+                <td>:</td>
+                <td><select name="jurusan" id="jurusan">
+                    <option value="">Pilih...</option>
+                    <option value="S1RPL">S1 RPL</option>
+                    <option value="S1ILKOM">S1 ILKOM </option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">HOBBY</label></td>
+                <td>:</td>
+                <td><input type="checkbox" name="hobby" id="hobby" value="Komputer">Komputer 
+                    <input type="checkbox" name="hobby" id="hobby" value="Musik">Musik
+                    <input type="checkbox" name="hobby" id="hobby" value="Olahraga">Olahraga 
+                    <input type="checkbox" name="hobby" id="hobby" value="Travelling">Travelling
+                </td>
+            </tr>
+            <tr>
+                <td><label for="catatan">CATATAN</label></td>
+                <td>:</td>
+                <td><textarea name="catatan" id="catatan" cols="45" rows="5"></textarea>
+                </td>
+            </tr>
+             <tr>
+                <td><label for="foto">FOTO</label></td>
+                <td>:</td>
+                <td><input type="file" name="foto" id="foto" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL</label></td>
+                <td>:</td>
+                <td><input required type="email" name="email" id="email" placeholder="Masukan EMAIL Anda" size="30" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td><label for="sandi">SANDI LOGIN</label></td>
+                <td>:</td>
+                <td><input required type="password" name="sandi" id="sandi" placeholder=" Masukan Password Anda" size="30" maxlength="50"></td>
+            </tr>
+             <tr>
+                <td><label for="sandi2">ULANG SANDI LOGIN</label></td>
+                <td>:</td>
+                <td><input required type="password" name="sandi2" id="sandi2" placeholder="Masukan Kembali Password Anda" size="30" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="Simpan Data">
+                    <input type="reset" name="batal" value="Batal">
+                    <input type="button" name="peringatan" value="Peringatan">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
